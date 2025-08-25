@@ -49,4 +49,4 @@ jobs:
             --allow-unauthenticated \
             --platform managed \
             --memory 512Mi \
-            --set-env-vars "NODE_ENV=production,MONGODB_URI=${{ secrets.MONGODB_URI }},JWT_SECRET=${{ secrets.JWT_SECRET }},CORS_ORIGIN=${{ env.FRONT_ORIGIN }}"
+            --set-env-vars "NODE_ENV=production,MONGODB_URI=${{ secrets.MONGODB_URI }},JWT_SECRET=${{ secrets.JWT_SECRET }},CORS_ORIGIN=https://frontend-proyect.web.app"
